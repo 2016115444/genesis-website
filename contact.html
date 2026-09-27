@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Team Ocean Belize</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <span>TEAM</span> OCEAN
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="about.html">About Us</a>
+
+            <a href="contact.html" class="nav-button">
+                Book a Tour
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <p class="section-label light">
+            LET'S PLAN YOUR ADVENTURE
+        </p>
+
+        <h1>
+            Contact Team Ocean
+        </h1>
+
+        <p>
+            Tell us what you'd like to experience.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container contact-grid">
+
+
+        <!-- CONTACT INFORMATION -->
+
+        <div class="contact-info">
+
+            <p class="section-label">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Let's Plan Your Day
+            </h2>
+
+            <p>
+                Interested in one of our tours or want to create
+                something custom? Send us a message and we'll get
+                back to you.
+            </p>
+
+
+            <div class="contact-detail">
+
+                <strong>📞 Phone</strong>
+
+                <p>
+                    +501 XXX-XXXX
+                </p>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <strong>✉️ Email</strong>
+
+                <p>
+                    info@teamocean.com
+                </p>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <strong>📍 Location</strong>
+
+                <p>
+                    Belize
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div class="contact-form-container">
+
+            <form id="contactForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="tour">
+                        Tour
+                    </label>
+
+                    <select id="tour" name="tour">
+
+                        <option value="">
+                            Select a tour
+                        </option>
+
+                        <option value="half-snorkeling">
+                            Half Day Snorkeling
+                        </option>
+
+                        <option value="caye-caulker">
+                            Full Day Snorkeling & Caye Caulker
+                        </option>
+
+                        <option value="half-fishing">
+                            Half Day Fishing
+                        </option>
+
+                        <option value="fishing-bbq">
+                            Full Day Fishing & Beach BBQ
+                        </option>
+
+                        <option value="custom">
+                            Customizable Tour
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="date">
+                        Preferred Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Tell us about your trip..."
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary"
+                >
+                    Send Inquiry
+                </button>
+
+                <p
+                    id="formMessage"
+                    class="form-message"
+                ></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <div class="logo footer-logo">
+                <span>TEAM</span> OCEAN
+            </div>
+
+            <p>
+                Belize adventures made unforgettable.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>Explore</h4>
+
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>Contact</h4>
+
+            <p>Belize</p>
+            <p>Phone: +501 XXX-XXXX</p>
+            <p>Email: info@teamocean.com</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © <span id="year"></span> Team Ocean.
+            All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
